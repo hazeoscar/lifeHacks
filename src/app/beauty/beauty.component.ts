@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { BeautyHackService } from '../beauty-hack.service';
+import { Beauty } from '../beauty';
+
 
 @Component({
   selector: 'app-beauty',
@@ -7,9 +10,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BeautyComponent implements OnInit {
 
-  constructor() { }
+  beauty: Beauty[];
+  indoor: Beauty[];
+
+  constructor(private beautyHackService: BeautyHackService) { }
 
   ngOnInit() {
+
+  this.beautyHackService.getBeauty().subscribe(content => this.beauty = content);
+  this.beautyHackService.getIndoor().subscribe(result => this.indoor = result);
   }
 
 }
