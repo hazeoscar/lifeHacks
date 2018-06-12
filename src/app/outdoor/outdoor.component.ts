@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { OutdoorhacksService } from '../outdoorhacks.service';
 import { Outdoor } from '../outdoor';
 
-
 @Component({
   selector: 'app-outdoor',
   templateUrl: './outdoor.component.html',

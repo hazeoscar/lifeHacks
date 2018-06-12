@@ -25,7 +25,7 @@ outdoorhacks: Outdoor[] = [
     {
         id: 3,
         title: 'Make a Multi-Person Swing',
-        description: 'Here’s another breathtakingly simple idea. It is possible to take a pallet and some discarded rope to                      create a functional, multi-purpose swing. Pallets can be sourced for free from local warehouses or supermarkets.                   Brand new lengths of rope can be purchased for a nominal fee of between $5 and $15, depending on the size. You                       can then secure the rope to each corner of the pallet. Remember to ensure that it is hung safely from a sturdy                     tree branch.',
+        description: 'It is possible to take a pallet and some discarded rope to                      create a functional, multi-purpose swing. Pallets can be sourced for free from local warehouses or supermarkets.                   Brand new lengths of rope can be purchased for a nominal fee of between $5 and $15, depending on the size. You                       can then secure the rope to each corner of the pallet. Remember to ensure that it is hung safely from a sturdy                     tree branch.',
         datePosted: new Date('06/11/2018'),
         category: new Array(1).fill('Outdoor')
     }
@@ -48,8 +48,8 @@ outdoorhacks: Outdoor[] = [
         {
             id:3,
             title: 'De-skin potatoes without a peeler',
-            description: 'Time to ditch the peeler again! Peel a potato in a snap by boiling it and then giving it an ice bath. The             skin will separate from the potatoey center and you can pick it right off.'
-            datePosted:'06/10/2018',
+            description: 'Time to ditch the peeler again! Peel a potato in a snap by boiling it and then giving it an ice bath. The             skin will separate from the potatoey center and you can pick it right off.',
+            datePosted:new Date('06/10/2018'),
             category: new Array(1).fill('Cooking')
         }
     ];
