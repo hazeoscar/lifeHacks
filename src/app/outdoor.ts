@@ -4,5 +4,5 @@ export class Outdoor {
     title: string;
     description: string;
     datePosted: Date;
-    category: any;
+    category: string[] = ['Outdoor', 'Cooking'];
 }
