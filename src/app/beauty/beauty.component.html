@@ -1,3 +1,16 @@
-<div *ngFor="let b of beauty">
+<!-- <div *ngFor="let b of beauty">
 {{b.title}}
+</div> -->
+
+<h2>Beauty & Indoor Hacks</h2>
+<div class="yeganehHackTab">
+  <button class="tablinks" onclick="openHackY(event,'Beauty')">Beauty</button>
+  <button class="tablinks" onclick="openHackY(event,'Indoor')">Indoor</button>
 </div>
+
+<div *ngFor="let b of beauty" id="{{b[0].id}}" class="tabcontent">
+  <h3>{{b[0].title}}</h3>
+</div>
+
+<!-- <li id="{{planets[0].id}}">{{planets[0].name}}</li> -->
+<!-- {{planets[0].id}}">{{planets[0].name}} -->
