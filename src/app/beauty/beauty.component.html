@@ -2,6 +2,7 @@
 {{b.title}}
 </div> -->
 
+<div class="yegComp">
 <h2>Beauty & Indoor Hacks</h2>
 <div class="yeganehHackTab">
   <button class="tablinks" onclick="openHackY(event,'Beauty')">Beauty</button>
@@ -9,32 +10,32 @@
 </div>
 
 
-<div class="beautycomp">
-  <div *ngIf="beauty" class="tabcontent">
-    <div *ngFor="let b of beauty" id="beauty" class="panelContaitner">
+<!--START <div class="beautycomp"> -->
+  <div *ngIf="beauty" class="panelContaitner" id="Beauty">
+    <div *ngFor="let b of beauty" class="hackDetail">
       <h3>{{b.title}}</h3>
-      <p class="description">{{b.description}}</p>
+      <div class="description">
+        <p>{{b.description}}</p>
+        <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
+        <div class="subtext"><span>Category:</span> {{b.category}}</div>
+        </div>
     </div>
   </div>
-</div>
+<!-- </div class="beautycomp> -->
 
-<div class="indoorcomp">
-<div *ngIf="indoor" class="tabcontent">
-  <div *ngFor="let b of indoor" id="indoor"  class="panelContaitner">
+<!-- START <div class="indoorcomp"> -->
+<div *ngIf="indoor" class="panelContaitner" id="Indoor">
+  <div *ngFor="let b of indoor" class="hackDetail">
     <h3>{{b.title}}</h3>
-    <p class="description">{{b.description}}</p>
+    <div class="description">
+    <p>{{b.description}}</p>
+    <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
+    <div class="subtext"><span>Category:</span> {{b.category}}</div>
+    </div>
+    
   </div>
 </div>
 </div>
+<!-- END </div class="indoorcomp> -->
 
 
-
-
-
-
-<!-- <div *ngFor="let b of beauty" class="tabcontent">
-  <h3>{{b.title}}</h3>
-</div> -->
-
-<!-- <li id="{{planets[0].id}}">{{planets[0].name}}</li> -->
-<!-- {{planets[0].id}}">{{planets[0].name}} -->

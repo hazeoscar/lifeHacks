@@ -1,0 +1,101 @@
+.yegComp{
+    margin: 15px auto;
+    font-family: 'Lato', sans-serif;
+    color:#00537b;
+    border-bottom:2px solid #00537b;
+    border-right: 1px solid #00537b;
+    padding:0.5em;
+    padding-bottom:2em;
+    width:48%;
+    float:left;
+
+}
+
+h2{
+    color: #00537b;
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+}
+
+
+.yeganehHackTab{
+font-family: 'Lato', sans-serif;
+overflow: hidden;
+background-color: #fff;
+margin: 0 auto;
+display: flex;
+
+}
+
+.yeganehHackTab button{
+    padding:14px 80px;
+    float: left;
+    font-size: 17px;
+    color: #00537b;
+    border: 1px solid #00537b;
+    border-radius: 0.3em;
+    
+}
+
+
+.yeganehHackTab button:hover {
+    background-color: #00537b;
+    color: #fff;
+}
+
+.yeganehHackTab button:active {
+    background-color: #00537b;
+    color: #fff;
+}
+
+
+.panelContaitner{
+    display: none;
+    border-top: none;   
+    border: 1px solid #ccc;
+    padding: 10px;
+    
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: bolder;
+    font-size: 16px;
+    text-align: left;
+    padding: 18px;
+    margin: 0px;
+    border-bottom: 1px solid #ccc;
+}
+
+.hackDetail{
+    padding-bottom: 10px;
+    /* border-bottom: 1px solid #ccc; */
+    
+   
+}
+
+.hackDetail p {
+    font-family: 'Lato', sans-serif;
+    font-weight: normal;
+}
+
+h3:hover{
+    color: #fff;
+    background-color: #00537b;
+}
+
+
+    
+
+.subtext span{
+    color:#00537b;
+    font-weight:bolder;
+    font-size: 16px;
+    text-decoration:underline;
+    padding-right:3px;
+    
+}
+
+
+
+

@@ -21,7 +21,8 @@ export class BeautyHackService {
       Moving on to your face: Use as a skin toner to treat and prevent acne.
       You can also apply to dark spots on face to correct hyperpigmentation.
       It gets rid of warts and skin tags! Dab on, put band-aid over the area, and then repeat for a week. The growth will eventually fall off.`, 
-      datecreated: new Date('09,06,2018')
+      datecreated: new Date('09,06,2018'),
+      category: new Array(1).fill('Beauty')
     },
     { id:2, 
       title:'Eggs', 
@@ -32,6 +33,7 @@ export class BeautyHackService {
        Go ahead and grab a full egg (or two, if your hair is long) to make a hair mask for damaged tresses, which is great for easy hairstyles. Eggs are full of protein, which will help repair and strengthen your hair. Beat the eggs, comb through hair, leave on for 20 minutes and rinse.
        You can even make your own natural hair gel using eggs! It’s much cheaper than buying a pricey product to style and control your hairdo.`, 
       datecreated: new Date('10,06,2018')
+      category: new Array(1).fill('Beauty')
     },
     { id:3, 
       title:'Coconut Oil', 
@@ -42,6 +44,7 @@ export class BeautyHackService {
       Coconut oil is a wonderful natural aide for skin issues. Try using it to soothe eczema breakouts.
       It also makes a great lipgloss–straight up from the jar. Just swipe your finger in, and rub directly on your lips.`, 
       datecreated: new Date('11,06,2018')
+      category: new Array(1).fill('Beauty')
     }
   ];
 
@@ -59,7 +62,8 @@ indoorHacks: Beauty[]=[
     from your legs. But, when you don't have one of these awesome laptop stands nearby, you can make one out of just about anything, including kitchen cooling racks, 
     3-ring binders, and even cardboard. None of them are going to win any design contests, but they'll work. Of course, with a bit of extra elbow grease, you could make 
     something a bit nicer looking as well. It just takes a little more effort.`, 
-    datecreated: new Date('08,05,2018')
+    datecreated: new Date('08,05,2018'),
+    category: new Array(1).fill('Indoor')
   },
   { id:2, 
     title:' Insulate Your Home with Bubble Wrap', 
