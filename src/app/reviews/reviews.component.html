@@ -1,0 +1,13 @@
+<div id="review" >
+  <h2>Reviews</h2>
+  <div *ngIf="reviews">
+    <div *ngFor="let r of reviews" class="outer-div">
+      <button class="accordionReview">{{ r.id }}: {{ r.firstName }} {{r.lastName}}</button>
+      <div class="panelReview">
+        <div><p class="font-bolder"></p> -- {{ r.comment }} -- </div>
+        <div><p class="font-bolder">Posted On: </p>{{ r.datePosted }}</div>
+        <div><p class="font-bolder">Like:  </p>{{ r.like }}</div>
+      </div>
+    </div>
+  </div>
+</div>
