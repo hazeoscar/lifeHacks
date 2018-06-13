@@ -7,8 +7,30 @@
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <script
+        src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous">
+  </script>
 </head>
 <body>
   <app-root></app-root>
 </body>
+<script>
+$(document).ready(function(){
+
+$('.description').hide();   
+
+$('h3').click(function(){
+	$('.description').hide();   
+  $(this).next('.description').toggle(1000);
+  
+  $('.description').hover(
+	function(){$('p').css({'background':'#00537b','color':'#ffffff'} )},
+	function(){$('p').css({'background':'#ffffff','color':'#00537b'} )}
+	);
+	  
+});
+});
+</script>
 </html>
