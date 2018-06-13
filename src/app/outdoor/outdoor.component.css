@@ -17,9 +17,14 @@
     overflow: hidden;
     background-color: #fff;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
 h2 {
     text-align:center;
+    margin-bottom:1em;
 }
 
 /* Style the buttons inside the tab */
@@ -30,9 +35,10 @@ h2 {
     border:1px solid #00537b;
     outline: none;
     cursor: pointer;
-    padding: 14px 16px;
+    padding: 14px 80px;
     transition: 0.3s;
     font-size: 17px;
+    margin-right:2px;
 }
 
 /* Change background color of buttons on hover */
@@ -50,10 +56,7 @@ h2 {
 
 /* Style the tab content */
 .tabcontent {
-    display: none;
     padding: 6px 12px;
-    /*border: 1px solid #00537b;*/
-    /*border-top: none;*/
 }
 
 /*accordian*/
@@ -75,17 +78,14 @@ h2 {
 .outer-div {
     margin-bottom:1em;
 }
-
 .active, .accordion:hover {
     background-color: #00537b;
     color:#fff;
     border:1px solid #ccc;
 }
-
 .panel {
     border:1px solid #ccc;
     padding: 18px 18px;
-    display: none;
     background-color: #fff;
     overflow: hidden;
     margin-bottom:1em;

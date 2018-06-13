@@ -2,7 +2,7 @@
 <div class="lifehacks">
 <h2>Outdoor and Cooking Life Hacks</h2>
 <div class="tab" role="tablist">
-    <button class="tablinks" onclick="openHack(event, 'Outdoor')">Outdoor</button>
+    <button class="tablinks active" onclick="openHack(event, 'Outdoor')">Outdoor</button>
     <button class="tablinks" onclick="openHack(event, 'Cooking')">Cooking</button>
   </div>
 
@@ -18,7 +18,7 @@
         </div>
     </div>
   </div>
-  <div id="Cooking" class="tabcontent">
+  <div id="Cooking" class="tabcontent" style="display: none;">
     <div *ngIf="cookhacks">
         <div *ngFor="let h of cookhacks" class="outer-div">
           <button class="accordion">{{ h.id }}: {{ h.title }}</button>
