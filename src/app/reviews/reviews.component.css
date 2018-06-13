@@ -1,0 +1,49 @@
+#review {
+    clear:both;
+    font-family: 'Lato', sans-serif;
+    color: #00537b;
+    padding: 2em;
+    margin-top:2em;
+}
+h2 {
+    text-align:center;
+    margin-bottom:1em;
+}
+
+/*accordian*/
+.accordionReview {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #00537b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight:bolder;
+
+}
+.outer-div {
+    margin-bottom:1em;
+}
+.active, .accordionReview:hover {
+    background-color: #00537b;
+    color:#fff;
+    border:1px solid #ccc;
+}
+.panelReview {
+    border:1px solid #ccc;
+    padding: 18px 18px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom:1em;
+}
+.font-bolder {
+    color:#00537b;
+    font-weight:bolder;
+    font-size: 16px;
+    text-decoration:underline;
+}
