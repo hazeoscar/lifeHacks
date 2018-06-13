@@ -57,24 +57,24 @@ h2 {
 }
 
 /*accordian*/
-  .accordion {
-      font-family: 'Lato', sans-serif;
-      background-color: #fff;
-      color: #00537b;
-      cursor: pointer;
-      padding: 18px;
-      width: 100%;
-      border: 1px solid #ccc;
-      text-align: left;
-      outline: none;
-      font-size: 16px;
-      transition: 0.4s;
-      font-weight:bolder;
+.accordion {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #00537b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight:bolder;
 
-  }
-  .outer-div {
-      margin-bottom:1em;
-  }
+}
+.outer-div {
+    margin-bottom:1em;
+}
 
 .active, .accordion:hover {
     background-color: #00537b;
