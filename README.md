@@ -4,20 +4,27 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 This project is to illustrates basic knowledge of Angular by implementing component, service and model.
 
-Gurinder and Yeganeh are group partners in this project.
+Gurinder and Yeganeh are group partners in this project. This project illustrates different hacks that can be used in daily life and also gives reviews from people.
+
 
 ## Models
 outdoor.ts- [Gurinder]
+
+review.ts- [Gurinder]
 
 beauty.ts- [Yeganeh]
 
 ## Services
 outdoorhacks.service.ts- [Gurinder]
 
+review.service.ts- [Gurinder]
+
 beauty-hack.service.ts- [Yeganeh]
 
 ## Components
 outdoor- [Gurinder]
+
+reviews- [Gurinder]
 
 beauty- [Yeganeh]
 
