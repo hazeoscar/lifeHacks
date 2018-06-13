@@ -8,14 +8,17 @@ Gurinder and Yeganeh are group partners in this project.
 
 ## Models
 outdoor.ts- [Gurinder]
+
 beauty.ts- [Yeganeh]
 
 ## Services
 outdoorhacks.service.ts- [Gurinder]
+
 beauty-hack.service.ts- [Yeganeh]
 
 ## Components
 outdoor- [Gurinder]
+
 beauty- [Yeganeh]
 
 ## Development server
