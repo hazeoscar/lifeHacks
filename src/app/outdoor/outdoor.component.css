@@ -1,0 +1,96 @@
+.lifehacks{
+    font-family: 'Lato', sans-serif;
+    color:#00537b;
+    border-bottom:2px solid #00537b;
+    border-right: 1px solid #00537b;
+    padding:0.5em;
+    padding-bottom:2em;
+    width:48%;
+    float:left;
+}
+
+/* Style the tab */
+.tab {
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    background-color: #fff;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    text-align:center;
+    margin-bottom:1em;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: #fff;
+    color: #00537b;
+    float: left;
+    border:1px solid #00537b;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 80px;
+    transition: 0.3s;
+    font-size: 17px;
+    margin-right:2px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #00537b;
+    color: #fff;
+    border:1px solid #fff;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #00537b;
+    color:#fff;
+}
+
+/* Style the tab content */
+.tabcontent {
+    padding: 6px 12px;
+}
+
+/*accordian*/
+.accordion {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff;
+    color: #00537b;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: 1px solid #ccc;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    transition: 0.4s;
+    font-weight:bolder;
+
+}
+.outer-div {
+    margin-bottom:1em;
+}
+.active, .accordion:hover {
+    background-color: #00537b;
+    color:#fff;
+    border:1px solid #ccc;
+}
+.panel {
+    border:1px solid #ccc;
+    padding: 18px 18px;
+    background-color: #fff;
+    overflow: hidden;
+    margin-bottom:1em;
+}
+.font-bolder {
+    color:#00537b;
+    font-weight:bolder;
+    font-size: 16px;
+    text-decoration:underline;
+}
