@@ -3,14 +3,14 @@
 </div> -->
 
 <div class="yegComp">
-<h2>Beauty & Indoor Hacks</h2>
-<div class="yeganehHackTab">
-  <button class="tablinks" onclick="openHackY(event,'Beauty')">Beauty</button>
-  <button class="tablinks" onclick="openHackY(event,'Indoor')">Indoor</button>
-</div>
+  <h2>Beauty & Indoor Hacks</h2>
+  <div class="yeganehHackTab">
+    <button class="tablinks" onclick="openHackY(event,'Beauty')">Beauty</button>
+    <button class="tablinks" onclick="openHackY(event,'Indoor')">Indoor</button>
+  </div>
 
 
-<!--START <div class="beautycomp"> -->
+  <!--START <div class="beautycomp"> -->
   <div *ngIf="beauty" class="panelContaitner" id="Beauty">
     <div *ngFor="let b of beauty" class="hackDetail">
       <h3>{{b.title}}</h3>
@@ -18,23 +18,22 @@
         <p>{{b.description}}</p>
         <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
         <div class="subtext"><span>Category:</span> {{b.category}}</div>
-        </div>
+      </div>
     </div>
   </div>
-<!-- </div class="beautycomp> -->
+  <!-- </div class="beautycomp> -->
 
-<!-- START <div class="indoorcomp"> -->
-<div *ngIf="indoor" class="panelContaitner" id="Indoor">
-  <div *ngFor="let b of indoor" class="hackDetail">
-    <h3>{{b.title}}</h3>
-    <div class="description">
-    <p>{{b.description}}</p>
-    <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
-    <div class="subtext"><span>Category:</span> {{b.category}}</div>
+  <!-- START <div class="indoorcomp"> -->
+  <div *ngIf="indoor" class="panelContaitner" id="Indoor">
+    <div *ngFor="let b of indoor" class="hackDetail">
+      <h3>{{b.title}}</h3>
+      <div class="description">
+        <p>{{b.description}}</p>
+        <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
+        <div class="subtext"><span>Category:</span> {{b.category}}</div>
     </div>
-    
+    </div>
   </div>
-</div>
 </div>
 <!-- END </div class="indoorcomp> -->
 
