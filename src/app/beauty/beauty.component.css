@@ -3,7 +3,6 @@
     font-family: 'Lato', sans-serif;
     color:#00537b;
     border-bottom:2px solid #00537b;
-    border-right: 1px solid #00537b;
     padding:0.5em;
     padding-bottom:2em;
     width:48%;
@@ -43,7 +42,7 @@ display: flex;
     color: #fff;
 }
 
-.yeganehHackTab button:active {
+.yeganehHackTab button.active {
     background-color: #00537b;
     color: #fff;
 }
@@ -51,10 +50,7 @@ display: flex;
 
 .panelContaitner{
     display: none;
-    border-top: none;   
-    border: 1px solid #ccc;
-    padding: 10px;
-    
+    border-top: none;       
 }
 
 h3{
@@ -64,14 +60,12 @@ h3{
     text-align: left;
     padding: 18px;
     margin: 0px;
-    border-bottom: 1px solid #ccc;
 }
 
 .hackDetail{
-    padding-bottom: 10px;
-    /* border-bottom: 1px solid #ccc; */
-    
-   
+    padding: 10px;
+    border: 1px solid #ccc;
+ 
 }
 
 .hackDetail p {

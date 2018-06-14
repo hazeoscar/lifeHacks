@@ -32,7 +32,7 @@ export class BeautyHackService {
        If you have some egg whites left over, and have oily skin, an egg-white mask is a great remedy for the slicks. There are various recipes for these available into which you can incorporate other natural/healthful ingredients as well.
        Go ahead and grab a full egg (or two, if your hair is long) to make a hair mask for damaged tresses, which is great for easy hairstyles. Eggs are full of protein, which will help repair and strengthen your hair. Beat the eggs, comb through hair, leave on for 20 minutes and rinse.
        You can even make your own natural hair gel using eggs! It’s much cheaper than buying a pricey product to style and control your hairdo.`, 
-      datecreated: new Date('10,06,2018')
+      datecreated: new Date('10,06,2018'),
       category: new Array(1).fill('Beauty')
     },
     { id:3, 
@@ -43,7 +43,7 @@ export class BeautyHackService {
       Rub it into your nails and cuticles – it will strengthen them and help them grow.
       Coconut oil is a wonderful natural aide for skin issues. Try using it to soothe eczema breakouts.
       It also makes a great lipgloss–straight up from the jar. Just swipe your finger in, and rub directly on your lips.`, 
-      datecreated: new Date('11,06,2018')
+      datecreated: new Date('11,06,2018'),
       category: new Array(1).fill('Beauty')
     }
   ];
@@ -70,14 +70,16 @@ indoorHacks: Beauty[]=[
     description: `Insulating your home is one of the best ways to save money right now, but if you don't have the cash (or the time) to drop on some real storm windows, 
     a little bubble wrap will do the trick very quickly. It certainly isn't pretty, but it works remarkably well, plus you have hours of bubble-popping fun ahead of you 
     for the rest of the winter.`, 
-    datecreated: new Date('10,06,2018')
+    datecreated: new Date('10,06,2018'),
+    category: new Array(1).fill('Indoor')
   },
   { id:3, 
     title:'Organize Your Cables with Toilet Paper Tubes', 
     description: `It's amazing how quickly one can amass extra cables in this day and age, but thankfully, you can keep them organized and tangle-free with leftover toilet 
     paper tubes. Despite how ridiculous it sounds (and looks), this little organizer is actually pretty clever. After all, it's not like you're going to have it out in the 
     open for everyone to see—you just need somewhere to store those old component and mini-USB cables you don't use anymore.`, 
-    datecreated: new Date('11,06,2018')
+    datecreated: new Date('11,06,2018'),
+    category: new Array(1).fill('Indoor')
   }
 ];
 

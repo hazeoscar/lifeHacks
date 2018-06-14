@@ -17,7 +17,6 @@
           integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
           crossorigin="anonymous">
   </script>
-
   <script>
       function openHackY(evt, hackYTitle) {
           var i, tabcontent, tablinks;
@@ -30,17 +29,13 @@
               tablinks[i].className = tablinks[i].className.replace("active", "");
           }
           document.getElementById(hackYTitle).style.display = "block";
-          evt.currentTarget.className += "active";
+          evt.currentTarget.className += " active";
       }
       $(document).ready(function(){
           $('.description').hide();
           $('h3').click(function(){
               $('.description').hide();
               $(this).next('.description').toggle(1000);
-              // $('.description').hover(
-              // function(){$('p').css({'background':'#00537b','color':'#ffffff'} )},
-              // function(){$('p').css({'background':'#ffffff','color':'#00537b'} )}
-              // );
 
           });
       });
