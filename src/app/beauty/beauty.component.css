@@ -1,5 +1,5 @@
 .yegComp{
-    margin: 15px auto;
+    /* margin: 15px auto; */
     font-family: 'Lato', sans-serif;
     color:#00537b;
     border-bottom:2px solid #00537b;
@@ -14,6 +14,8 @@ h2{
     color: #00537b;
     font-family: 'Lato', sans-serif;
     font-size: 1.5rem;
+    text-align: center;
+    
 }
 
 
@@ -23,6 +25,8 @@ overflow: hidden;
 background-color: #fff;
 margin: 0 auto;
 display: flex;
+justify-content: center;
+align-items: center;
 
 }
 
@@ -32,7 +36,7 @@ display: flex;
     font-size: 17px;
     color: #00537b;
     border: 1px solid #00537b;
-    border-radius: 0.3em;
+    margin: 1px;
     
 }
 
@@ -60,17 +64,29 @@ h3{
     text-align: left;
     padding: 18px;
     margin: 0px;
+    margin-bottom: 0.5em;
+    border: 1px solid #ccc;
+}
+
+.description{
+    border: 1px solid #ccc;
+    padding: 18px;
+    margin: 0px;
+   
 }
 
 .hackDetail{
     padding: 10px;
-    border: 1px solid #ccc;
+    /* border: 1px solid #ccc; */
+    padding: 5px;
  
 }
 
 .hackDetail p {
     font-family: 'Lato', sans-serif;
     font-weight: normal;
+    /* margin-top: 0px; */
+    
 }
 
 h3:hover{
@@ -81,7 +97,7 @@ h3:hover{
 
     
 
-.subtext span{
+.subtext{
     color:#00537b;
     font-weight:bolder;
     font-size: 16px;

@@ -13,11 +13,11 @@
   <!--START <div class="beautycomp"> -->
   <div *ngIf="beauty" class="panelContaitner" id="Beauty">
     <div *ngFor="let b of beauty" class="hackDetail">
-      <h3>{{b.title}}</h3>
+      <h3>{{b.id}}. {{b.title}}</h3>
       <div class="description">
-        <p>{{b.description}}</p>
-        <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
-        <div class="subtext"><span>Category:</span> {{b.category}}</div>
+        <div class="subtext">Description:</div><p>{{b.description}}</p>
+        <div class="subtext">Date Posted:</div><p>{{b.datecreated}}</p>
+        <div class="subtext">Category:</div><p>{{b.category}}</p>
       </div>
     </div>
   </div>
@@ -26,11 +26,11 @@
   <!-- START <div class="indoorcomp"> -->
   <div *ngIf="indoor" class="panelContaitner" id="Indoor">
     <div *ngFor="let b of indoor" class="hackDetail">
-      <h3>{{b.title}}</h3>
+      <h3>{{b.id}}. {{b.title}}</h3>
       <div class="description">
-        <p>{{b.description}}</p>
-        <div class="subtext"><span>Date Posted:</span> {{b.datecreated}}</div>
-        <div class="subtext"><span>Category:</span> {{b.category}}</div>
+          <div class="subtext">Description:</div><p>{{b.description}}</p>
+          <div class="subtext">Date Posted:</div><p>{{b.datecreated}}</p>
+          <div class="subtext">Category:</div><p>{{b.category}}</p>
     </div>
     </div>
   </div>
